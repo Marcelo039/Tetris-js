@@ -1,0 +1,25 @@
+[1mdiff --git a/index.html b/index.html[m
+[1mindex 637ef22..2f64c46 100644[m
+[1m--- a/index.html[m
+[1m+++ b/index.html[m
+[36m@@ -1,14 +1,7 @@[m
+[31m-<!DOCTYPE html>[m
+[31m-<html lang="pt-BR">[m
+[31m-<head>[m
+[31m-  <meta charset="UTF-8">[m
+[31m-  <title>Tetris Dojo</title>[m
+[31m-  <link rel="stylesheet" href="style.css">[m
+[31m-</head>[m
+ <body>[m
+   <h1>Tetris Dojo 🎮</h1>[m
+[31m-  <canvas id="game"></canvas>[m
+[31m-[m
+[32m+[m[32m  <div class="game-container">[m
+[32m+[m[32m    <canvas id="game" width="300" height="600"></canvas>[m
+[32m+[m[32m  </div>[m
+   <script src="script.js"></script>[m
+[31m-</body>[m
+[31m-</html>[m
+\ No newline at end of file[m
+[32m+[m[32m</body>[m
+\ No newline at end of file[m

@@ -25,6 +25,14 @@ function drawGrid() {
 drawGrid();
 
 let position = { x: 4, y: 0 };
+document.addEventListener("keydown", (event) => {
+  if (event.key === "ArrowLeft") {
+    position.x--;
+  } else if (event.key === "ArrowRight") {
+    position.x++;
+  }
+});
+
 
 function drawBlock(x, y, color = "red") {
   context.fillStyle = color;

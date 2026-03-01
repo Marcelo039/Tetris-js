@@ -1,11 +1,17 @@
-body{
-    text-alignL:center;
-    background-color: #111;
-    color: white; 
+body {
+  margin: 0;
+  background-color: #111;
+  color: white;
+  font-family: Arial, sans-serif;
 }
 
-canvas{
-    background-color:black;
-    border: 2px solid white;
+.game-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
 }
 
+canvas {
+  background-color: black;
+  border: 2px solid white;
+}

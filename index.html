@@ -1,10 +1,27 @@
 <body>
-  <h1>Tetris Dojo 🎮</h1>
-  <div class="game-container">
-    <canvas id="game" width="300" height="600"></canvas>
+  <div class="game-wrapper">
+    <h1>Tetris Dojo 🎮</h1>
+
+    <div class="game-container">
+      <canvas id="game"></canvas>
+
+      <div class="side-panel">
+        <h2>Controles</h2>
+        <p>⬅ Mover para esquerda</p>
+        <p>➡ Mover para direita</p>
+        <p>⬇ Acelerar descida</p>
+
+        <div class="score-box">
+          <h2>Score</h2>
+          <p id="score">0</p>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <p>Developed by adm 🚀</p>
+    </footer>
   </div>
+
   <script src="script.js"></script>
 </body>
-<p class = "instructions">
-    use  ← → para mover o bloco
-</p>
